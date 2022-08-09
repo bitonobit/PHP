@@ -1,0 +1,96 @@
+#log{
+    position: relative;
+    left: 500px;
+}
+
+body {
+    background-image: linear-gradient(#0092A3, white);
+}
+
+#margen{
+    margin-top: 10%;
+}
+
+#margendatos{
+    margin-top: 4%;
+}
+
+.form{
+    padding: 5%;
+    border-radius: 0.5em;
+    border: 1px solid #343A40;
+}
+
+h1{
+    text-align: center;
+}
+
+div>img{
+    width: 75%;
+    border-radius: 10px;
+}
+
+footer{
+    color: white;
+    position: relative;
+    bottom: 0px;
+    background-color: #343A40;
+    height: 70px;
+    width: 100%;
+}
+
+footer>p{
+    display: inline;
+    width: 40%;
+    margin-left: 10%;
+    position: relative;
+    top: 30%;
+}
+
+.fijo{
+    position: absolute;
+    bottom: 0px;
+}
+
+.blanco{
+    color: white;
+}
+
+#calendario{
+    margin-top: 5%;
+}
+
+.dias, .finde{
+
+    border: 1px solid black;
+}
+
+.dias{
+    background-color: white;
+}
+.dias:hover{
+    background-color: #0092A3;;
+}
+
+.finde{
+    background-color: rgb(233, 73, 73);
+}
+.finde:hover{
+    background-color: red;;
+}
+
+.botonfecha{
+    text-align: center;
+    margin: 0 auto;
+}
+
+#horas{
+    margin-top: 5%;
+}
+#horas>div>form{
+    margin: 25px;
+}
+
+.center{
+    text-align: center;
+}
